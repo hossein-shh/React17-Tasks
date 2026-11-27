@@ -11,9 +11,9 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@fontsource/vazirmatn": "^5.2.5",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "vazirmatn": "^33.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.0",

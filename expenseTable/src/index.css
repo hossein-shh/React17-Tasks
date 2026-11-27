@@ -1,4 +1,3 @@
-/* رنگ‌ها از فایل Styles در Figma */
 :root {
   --dark: #1f2933;
   --grey: #6b7580;
@@ -16,7 +15,7 @@
 body {
   margin: 0;
   padding: 16px;
-  font-family: "Vazirmatn", sans-serif;
+  font-family: "Vazirmatn FD", "Vazirmatn", sans-serif;
   color: var(--dark);
   background-color: var(--bg);
 }

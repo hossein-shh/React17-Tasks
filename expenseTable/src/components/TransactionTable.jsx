@@ -1,11 +1,11 @@
+import { transactions } from "../data/transactions.js";
 import "./TransactionTable.css";
 
-// عدد را فارسی می‌کند و کاما می‌گذارد: 3100000 -> ۳,۱۰۰,۰۰۰
 function formatNumber(number) {
-  return number.toLocaleString("fa-IR").replaceAll("٬", ",");
+  return number.toLocaleString("en-US");
 }
 
-function TransactionTable({ transactions }) {
+function TransactionTable() {
   return (
     <div className="card">
       <h2 className="title">تراکنش‌ها</h2>
@@ -21,7 +21,6 @@ function TransactionTable({ transactions }) {
         </thead>
 
         <tbody>
-          {/* به ازای هر تراکنش یک سطر می‌سازیم */}
           {transactions.map((item) => (
             <tr key={item.id}>
               <td className="date">{item.date}</td>
